@@ -25,10 +25,10 @@ Finally, just import the library in your `application.css` by adding this line
 *= require hover-rails
 ```
 
-Or if you're using `Sass`, thenn import it in your `application.sass`
+Or if you're using `Scss`, thenn import it in your `application.scss`
 
 ```sass
-@import hover
+@import 'hover';
 ```
 
 That is it ! 
