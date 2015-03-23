@@ -1,4 +1,9 @@
-# [Hover](https://github.com/IanLunn/Hover) for Rails
+# Hover for Rails
+
+## Hover
+
+Hover-rails, as the name suggests, is a gem for the fantastic CSS library :  [Hover](https://github.com/IanLunn/Hover)  
+
 
 ## Installation 
 
