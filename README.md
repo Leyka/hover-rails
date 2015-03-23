@@ -31,7 +31,4 @@ Or if you're using `Scss`, thenn import it in your `application.scss`
 @import 'hover';
 ```
 
-That is it ! 
-
-
-
+You're now ready to use Hover!
