@@ -38,3 +38,8 @@ Or if you prefer `Sass`, then paste this in your `application.sass`
 ```sass
 @import hover
 ```
+
+## Versioning
+
+2.0.2
+This gem has the same version than Hover.
