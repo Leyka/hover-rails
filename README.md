@@ -39,6 +39,9 @@ Or if you prefer `Sass`, then paste this in your `application.sass`
 @import hover
 ```
 
+## TODO 
+* Add font-awesome
+
 ## Versioning
 
 2.0.2
