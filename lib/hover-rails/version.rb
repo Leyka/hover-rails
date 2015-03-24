@@ -1,3 +1,3 @@
 module HoverRails
-  VERSION = "2.0.1" # Version of Hover
+  VERSION = "2.0.2" # Version of Hover
 end
