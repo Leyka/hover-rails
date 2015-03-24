@@ -1,5 +1,7 @@
-module HoverRails
-  class Engine < ::Rails::Engine
-    isolate_namespace HoverRails
+require "hover-rails/version"
+module Hover  
+  module Rails
+    class Engine < ::Rails::Engine
+    end
   end
-end
+end 

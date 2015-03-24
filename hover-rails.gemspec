@@ -12,8 +12,8 @@ Gem::Specification.new do |gem|
   gem.homepage      = 'https://github.com/Leyka/hover-rails'
   gem.license       = 'MIT'
 
-  gem.files         = Dir["{app,lib}/**/*"] + ["LICENSE", "Rakefile", "README.md"]
+  gem.files = Dir["{lib,vendor}/**/*"] + ["README.md"]  
   gem.require_paths = ['lib']
 
-  gem.add_dependency 'rails'
+  gem.add_dependency "railties", "~> 4.2.1"  
 end
