@@ -27,16 +27,14 @@ You're now ready to use Hover!
 
 ## Scss/Sass 
 
-If you're using a preprocessor, paste this line if you're using `Scss` in your `application.scss`
+If you're using a preprocessor like `Scss`, paste this line in your `application.scss`
 
 ```scss
 @import 'hover';
 ```
 
-Or if you prefer `Sass`, then paste this line
+Or if you prefer `Sass`, then paste this in your `application.sass`
 
 ```sass
 @import hover
 ```
-
-
