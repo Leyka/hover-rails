@@ -45,4 +45,4 @@ Or if you prefer `Sass`, then paste this in your `application.sass`
 ## Versioning
 
 2.0.2
-This gem has the same version than Hover.
+This gem has the same version as Hover.
