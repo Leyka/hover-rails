@@ -10,25 +10,33 @@ Hover-rails, as the name suggests, is a gem for the fantastic CSS library :  [Ho
 Add this line to your `Gemfile`
 
 ```ruby
+
 gem 'hover-rails'
 ```
+and run `bundle install`
 
-Then run in your console
+## Usage 
 
-```ruby
-bundle
-```
-
-Finally, just import the library in your `application.css` by adding this line 
+Import the library in your `application.css` by adding this line 
 
 ```ruby
 *= require hover-rails
 ```
 
-Or if you're using `Scss`, thenn import it in your `application.scss`
+You're now ready to use Hover!
 
-```sass
+## Scss/Sass 
+
+If you're using a preprocessor, paste this line if you're using `Scss` in your `application.scss`
+
+```scss
 @import 'hover';
 ```
 
-You're now ready to use Hover!
+Or if you prefer `Sass`, then paste this line
+
+```sass
+@import hover
+```
+
+
