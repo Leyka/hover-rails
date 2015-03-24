@@ -2,18 +2,18 @@
 $:.push File.expand_path('../lib', __FILE__)
 require 'hover-rails/version'
 
-Gem::Specification.new do |spec|
-  spec.name          = "hover-rails"
-  spec.version       = HoverRails::VERSION
-  spec.authors       = ["Skander"]
-  spec.email         = ["skander.kc@gmaill.com"]
-  spec.summary       = 'Hover.css for Rails applications'
-  spec.description   = 'Hover.css for Rails applications'
-  spec.homepage      = 'https://github.com/Leyka/hover-rails'
-  spec.license       = 'MIT'
+Gem::Specification.new do |gem|
+  gem.name          = "hover-rails"
+  gem.version       = HoverRails::VERSION
+  gem.authors       = ["Skander"]
+  gem.email         = ["skander.kc@gmaill.com"]
+  gem.summary       = 'Gem for the awesome library Hover.css'
+  gem.description   = 'Gem for the awesome library Hover.css'
+  gem.homepage      = 'https://github.com/Leyka/hover-rails'
+  gem.license       = 'MIT'
 
-  spec.files         = `git ls-files`.split($/)
-  spec.require_paths = ['lib']
+  gem.files         = Dir["{app,lib}/**/*"] + ["LICENSE", "Rakefile", "README.md"]
+  gem.require_paths = ['lib']
 
-  spec.add_dependency 'rails'
+  gem.add_dependency 'rails'
 end
