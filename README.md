@@ -2,7 +2,7 @@
 
 ## Hover for Rails applications
 
-Hover-rails, as the name suggests, is a gem for the fantastic CSS library :  [Hover](https://github.com/IanLunn/Hover)  
+Hover-rails, as the name suggests, is a gem for the CSS library :  [Hover](https://github.com/IanLunn/Hover)  
 
 
 ## Installation 
