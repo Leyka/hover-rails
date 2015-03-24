@@ -20,7 +20,7 @@ and run `bundle install`
 Import the library in your `application.css` by adding this line 
 
 ```ruby
-*= require hover-rails
+*= require hover
 ```
 
 You're now ready to use Hover!
