@@ -1,5 +1,7 @@
 # Hover-rails
 
+[![Gem Version](https://badge.fury.io/rb/hover-rails.svg)](http://badge.fury.io/rb/hover-rails)
+
 ## Hover for Rails applications
 
 Hover-rails, as the name suggests, is a gem for the CSS library :  [Hover](https://github.com/IanLunn/Hover)  
