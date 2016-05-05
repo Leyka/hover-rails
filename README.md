@@ -41,6 +41,14 @@ Or if you prefer `Sass`, then paste this in your `application.sass`
 @import hover
 ```
 
+## FontAwesome
+As Hover uses FontAwesome for its icon effects, hover-rails already includes the FontAwesome library. Just import it in your application stylesheet file. E.g. in `application.scss`
+```scss
+@import 'font-awesome';
+```
+
+
+
 ## Versioning
 
 2.0.2
