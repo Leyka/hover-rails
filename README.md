@@ -4,22 +4,21 @@
 
 ## Hover for Rails applications
 
-Hover-rails, as the name suggests, is a gem for the CSS library :  [Hover](https://github.com/IanLunn/Hover)  
+Hover-rails, as the name suggests, is a gem for the CSS library : [Hover](https://github.com/IanLunn/Hover)
 
-
-## Installation 
+## Installation
 
 Add this line to your `Gemfile`
 
 ```ruby
-
 gem 'hover-rails'
 ```
+
 and run `bundle install`
 
-## Usage 
+## Usage
 
-Import the library in your `application.css` by adding this line 
+Import the library in your `application.css` by adding this line
 
 ```ruby
 *= require hover
@@ -27,12 +26,12 @@ Import the library in your `application.css` by adding this line
 
 You're now ready to use Hover!
 
-## Scss/Sass 
+## Scss/Sass
 
 If you're using a preprocessor like `Scss`, paste this line in your `application.scss`
 
 ```scss
-@import 'hover';
+@import "hover";
 ```
 
 Or if you prefer `Sass`, then paste this in your `application.sass`
@@ -43,5 +42,5 @@ Or if you prefer `Sass`, then paste this in your `application.sass`
 
 ## Versioning
 
-2.0.2
+2.3.2
 This gem has the same version as Hover.
