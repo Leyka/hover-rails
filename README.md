@@ -31,7 +31,7 @@ You're now ready to use Hover!
 If you're using a preprocessor like `Scss`, paste this line in your `application.scss`
 
 ```scss
-@import "hover";
+@import 'hover';
 ```
 
 Or if you prefer `Sass`, then paste this in your `application.sass`
@@ -39,6 +39,12 @@ Or if you prefer `Sass`, then paste this in your `application.sass`
 ```sass
 @import hover
 ```
+
+## Font-awesome
+
+Adding [font-awesome-rails](https://github.com/bokmann/font-awesome-rails) gem will work fine with `hover-rails`.
+
+You can normally use `fa` css class like described in Hover [tutorial](https://github.com/IanLunn/Hover/#using-icon-effects).
 
 ## Versioning
 
